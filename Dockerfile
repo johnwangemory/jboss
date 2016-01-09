@@ -1,5 +1,4 @@
 FROM jboss/wildfly 
-
 MAINTAINER John Wang "john.wang@emory.edu" 
 
 CMD ["/opt/jboss/wildfly/bin/standalone.sh", "-c", "standalone.xml", "-b", "0.0.0.0"] 
